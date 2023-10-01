@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    max-width: 600px; /* Ограничение ширины контента до 600px */
+    margin: 0 auto; /* Выравнивание по центру */
+    padding: 20px; /* Добавление небольшого отступа от краев */
+}
+
+.container {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #f2e61a; /* Желтый цвет для текста */
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #f2e61a; /* Желтая рамка */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #333; /* Черный цвет фона */
+    color: #fff;
+}
+
+input[type="file"] {
+    margin-top: 5px;
+}
+
+fieldset {
+    border: 1px solid #f2e61a; /* Желтая рамка */
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #333; /* Черный цвет фона */
+    color: #fff;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.radio-group label {
+    margin-bottom: 5px;
+}
+
+.checkbox-group label {
+    display: block;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.submit-button {
+    margin-top: 10px;
+    background-color: #f2e61a; /* Желтый цвет кнопки */
+    color: #000; /* Черный цвет текста кнопки */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #333; /* Черный цвет кнопки при наведении */
+    color: #fff; /* Белый цвет текста при наведении */
+}
