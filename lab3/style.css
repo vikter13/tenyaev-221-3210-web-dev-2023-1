@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Флексбоксы */
+.flex-container {
+    display: flex;
+}
+
+.main-content {
+    flex: 2;
+    padding: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
