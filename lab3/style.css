@@ -39,3 +39,17 @@ nav ul li {
     background-color: #f0f0f0;
     padding: 20px;
 }
+
+@media print {
+
+    body {
+        font-size: 14pt;
+        background: none;
+        color: black; 
+    }
+
+    a {
+        display: none;
+    }
+    
+}
