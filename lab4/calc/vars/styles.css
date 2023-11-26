@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: grey;
+}
+
+.calc-container{
+    width: 450px;
+    height: 500px;
+    background-color:#FFF ;
+    border-radius: 30px;
+    margin: 100px;
+}
+
+.screen{
+    border:2px solid black;
+    border-radius: 30px 30px 0 0;
+    background-color:#FF0000 ;
+    height: 100px;
+    font-family: Orbitron;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: right;
+    color:white;
+    padding-top:10px;
+    padding-right: 10px;
+}
+
+.key{
+    font-size:35px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 2px 2px;
+    font-family: Promt;
+    font-weight: bold;
+}
+
+.digits, .other{
+    margin-top: -2px;
+    height: 387px;
+    border:2px solid black;
+}
+.digits{
+    float: left;
+    width: 280px;
+    border-radius: 0 0 0 30px;
+}
+
+.digits .key{
+    margin:10px 10px;
+}
+
+.other .key{
+    margin: 10px 5px;
+}
+
+.other{
+    float: right;
+    width: 164px;
+    border-radius: 0 0 30px 0;
+    border-left-style: none;
+}
+
+.key:hover{
+    scale: 1.03;
+}
+.key:active{
+    scale:0.95;
+}
+
