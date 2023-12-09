@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="http://httpbin.org/post" method="post" enctype="multipart/form-data">
+    <form action="http://httpbin.org/post" method="post" enctype="multipart/form-data"> <!-- тип кодирования данных, используемых при отправке формы на сервер -->
         <div class="container">
-            <label for="fio">ФИО</label>
+            <label>ФИО</label>
             <input type="text" id="fio" name="fio" placeholder="Введите ФИО" value="Иванов Иван Иванович">
         </div>
         <div class="container">
-            <label for="email">Email</label>
+            <label>Email</label>
             <input type="email" id="email" name="email" placeholder="Введите email">
         </div>
         <div class="container">
-            <fieldset>
+            <fieldset> <!-- элемент формы, который используется для группировки и стилизации связанных полей ввода -->
                 <legend>Как вы узнали о нас?</legend>
                 <div class="radio-group">
                     <label><input type="radio" name="source" value="radio"> Радио</label>
@@ -29,7 +29,7 @@
         <div class="container">
             <label>Тип обращения</label>
             <select id="type" name="type">
-                <option value="complaint">Жалоба</option>
+                <option value="complaint">Жалоба</option> <!-- value это значения, которые будут отправлены на сервер -->
                 <option value="proposal">Предложение</option>
             </select>
         </div>

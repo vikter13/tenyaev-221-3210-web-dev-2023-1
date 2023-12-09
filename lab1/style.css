@@ -44,7 +44,7 @@ p {
 .footer {
     background-color: rgba(25, 0, 55, 0.537);
     color: white;
-    padding: 20px 0;
+    padding: 20px 0; /* сначала верхняя и нижная, а потом боковые откступы внутренние*/
     margin-top: 20px;
 }
 
@@ -58,7 +58,6 @@ p {
 
 .avatar img {
     height: 100%;
-
 }
 
 .btn {
@@ -66,13 +65,13 @@ p {
     color: black;
     border: 2px solid black;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 5px; /* скругление углов */
     display: inline-block;
-    transition: color 500ms, border-color 500ms;
+    transition: color 500ms, border-color 500ms; /* эффект плавного перехода при наведении мышкой */
     margin-top: 10px;
 }
 
-.btn:hover {
+.btn:hover { /* hover это когда мышью наводишься */
     color: rgb(0, 0, 0);
     border-color: rgb(115, 0, 255);
 }
@@ -81,7 +80,7 @@ table {
     border-collapse: collapse;
 }
 
-table, th, td {
+table, th, td { /* table header / table data */
     border: 1px solid black;
 }
 

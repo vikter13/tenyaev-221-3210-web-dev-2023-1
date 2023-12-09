@@ -1,0 +1,17 @@
+@media print {
+    h1, h2, h3 {
+        color: #870000a3;
+    }
+
+    body {
+        font-size: 14pt;
+        background: none;
+        color: black; 
+        
+    }
+
+    a {
+        display: none;
+    }
+    
+}
